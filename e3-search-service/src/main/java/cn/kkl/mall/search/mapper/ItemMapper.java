@@ -7,5 +7,7 @@ import cn.kkl.mall.pojo.SearchItem;
 public interface ItemMapper {
 	
 	List<SearchItem> getItemList();
+	
+	SearchItem getItemById(Long itemId);
 
 }
